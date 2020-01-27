@@ -1,0 +1,15 @@
+.team {
+  width: 80%;
+  margin: auto;
+}
+
+.team h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(156px, 1fr));
+  padding: 4em 0;
+}

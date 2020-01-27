@@ -1,0 +1,15 @@
+.primary {
+  width: 1px;
+  height: 1.5em;
+  display: inline-block;
+  background: #fff;
+  margin: 0 8px -5px;
+}
+
+.secondary {
+  width: 4px;
+  height: 1.5em;
+  display: inline-block;
+  background: #fff;
+  margin: 0 8px -5px;
+}

@@ -1,0 +1,9 @@
+.quote {
+  width: 40%;
+  margin: 2em auto;
+  font-size: 30px;
+}
+
+.quote hr {
+  margin: 1em auto;
+}
