@@ -1,0 +1,10 @@
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2em auto;
+  text-align: center;
+}
+
+.features p {
+  font-size: 22px;
+}
