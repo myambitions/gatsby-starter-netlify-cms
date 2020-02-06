@@ -23,29 +23,5 @@ course:
     - socialTitle: facebook
       socialLink: https://facebook.com/theclassx
   preview: empty
-  images:
-    - image: /img/course/1.jpg
-    - image: /img/course/2.jpg
-    - image: /img/course/3.jpg
-feedbacks:
-  - text: В этой школе работают замечательные преподаватели, настоящие профессионалы! На занятиях получаешь не только заряд бодрости и энергии от зажигательных танцев, но и уйму положительных эмоций.
-    image: /img/chemex.jpg
-    name: Alexandra
-  - text: В этой школе работают замечательные преподаватели, настоящие профессионалы! На занятиях получаешь не только заряд бодрости и энергии от зажигательных танцев, но и уйму положительных эмоций.
-    image: /img/chemex.jpg
-    name: Alexandra
-  - text: В этой школе работают замечательные преподаватели, настоящие профессионалы! На занятиях получаешь не только заряд бодрости и энергии от зажигательных танцев, но и уйму положительных эмоций.
-    image: /img/chemex.jpg
-    name: Alexandra
 quote: Each type of visual aid has pros and cons that must be evaluated to ensure it will be beneficial to the overall presentation. Before incorporating visual aids into speeches, the speaker should understand that if used incorrectly, the visual will not be an aid, but a distraction.
-team:
-  - name: Гульбану
-    position: Co-founder
-    image: /img/chemex.jpg
-  - name: Гульбану
-    position: Co-founder
-    image: /img/chemex.jpg
-  - name: Гульбану
-    position: Co-founder
-    image: /img/chemex.jpg
 ---

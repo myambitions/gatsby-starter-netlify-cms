@@ -1,0 +1,69 @@
+.modal-block {
+  position: relative;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10em;
+  padding: 2em;
+  background-color: #fff;
+  border-radius: 4px;
+  z-index: 2;
+}
+
+.modal > .overlay {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.modal-title {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+  align-items: center;
+}
+
+.modal-title > p {
+  font-size: 1.5em;
+  flex-grow: 1;
+}
+.modal-title > span {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.modal-body input {
+  display: block;
+  margin-bottom: 1em;
+  font-size: 1em;
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.modal-body button {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.modal-body > form p {
+  width: fit-content;
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+.modal-body > form p:hover {
+  text-decoration: none;
+}

@@ -6,8 +6,8 @@ const Feedbacks = ({ feedbacks }) => {
     <>
       <h2 className="feedbacks-h2">Отзывы</h2>
       <div className="feedbacks">
-        {feedbacks.map(f => (
-          <Feedback {...f} />
+        {feedbacks.map((f, i) => (
+          <Feedback {...f} key={i} />
         ))}
       </div>
     </>

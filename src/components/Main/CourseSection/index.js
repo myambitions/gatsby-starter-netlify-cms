@@ -10,7 +10,6 @@ const CourseBlock = ({
   category,
   courseAbout,
   link,
-  preview,
   images,
   social
 }) => {
@@ -18,8 +17,9 @@ const CourseBlock = ({
     <div
       className="course-block banner"
       style={{
-        backgroundImage:
+        backgroundImage: `url(${
           !!img && !!img.childImageSharp ? img.childImageSharp.fluid.src : img
+        })`
       }}
     >
       <div className="video-preview">
@@ -40,17 +40,17 @@ const CourseBlock = ({
             <Link to={link}>read more ⟶</Link>
           </div>
           <div className="course-social">
-            {social.map(({ socialTitle, socialLink }) => (
-              <>
+            {social.map(({ socialTitle, socialLink }, i) => (
+              <React.Fragment key={i}>
                 <a href={socialLink}>{socialTitle}</a>
                 <Divider type="primary" />
-              </>
+              </React.Fragment>
             ))}
           </div>
         </div>
         <div className="course-images">
-          {images.map(({ image }) => (
-            <img src={image} alt="" />
+          {images.map(({ image }, i) => (
+            <img src={image} alt="" key={i} />
           ))}
         </div>
       </div>

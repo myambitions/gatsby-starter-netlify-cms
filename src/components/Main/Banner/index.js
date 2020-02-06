@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../Nav";
 import "./styles.css";
-const Banner = ({ title, subtitle, img }) => {
+const Banner = ({ title, subtitle, img, open }) => {
   return (
     <div
       className="banner"
@@ -12,7 +12,7 @@ const Banner = ({ title, subtitle, img }) => {
       }}
     >
       <div className="content">
-        <Nav />
+        <Nav open={open} />
         <p>Our company</p>
         <h1>{title}</h1>
         <h4>{subtitle}</h4>
