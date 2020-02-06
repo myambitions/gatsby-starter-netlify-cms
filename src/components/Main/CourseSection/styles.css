@@ -39,12 +39,12 @@
   width: 500px;
   height: 300px;
   background-color: black;
-  margin: auto
+  margin: auto;
 }
 
 .course-text {
   display: grid;
-  grid-template-columns: repeat(2, 1fr)
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .course-social {
@@ -61,5 +61,5 @@
 }
 
 .course-social div:last-child {
-  display: none
+  display: none;
 }

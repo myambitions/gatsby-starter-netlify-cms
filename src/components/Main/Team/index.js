@@ -6,8 +6,8 @@ const Team = ({ team }) => {
     <div className="team">
       <h2>Команда</h2>
       <div className="team-members">
-        {team.map(m => (
-          <Member {...m} />
+        {team.map((m, i) => (
+          <Member {...m} key={i} />
         ))}
       </div>
     </div>
