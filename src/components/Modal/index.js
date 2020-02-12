@@ -1,17 +1,17 @@
 import React from "react";
-import "./styles.css";
+import s from "./styles.module.css";
 
 const Modal = ({ title, children, handleClose }) => {
   return (
-    <div className="modal">
-      <div className="modal-block">
-        <div className="modal-title">
+    <div className={s.modal}>
+      <div className={s.block}>
+        <div className={s.title}>
           <p>{title}</p>
           <span onClick={handleClose}>X</span>
         </div>
-        <div className="modal-body">{children}</div>
+        <div className={s.body}>{children}</div>
       </div>
-      <div className="overlay" onClick={handleClose}></div>
+      <div className={s.overlay} onClick={handleClose}></div>
     </div>
   );
 };

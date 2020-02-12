@@ -1,0 +1,15 @@
+.item {
+  margin: 0.5em auto;
+}
+
+.name {
+  display: flex;
+  cursor: pointer;
+}
+.name p {
+  font-weight: bold;
+}
+
+.duration {
+  margin: 1em;
+}

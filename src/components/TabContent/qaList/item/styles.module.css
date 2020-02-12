@@ -1,0 +1,16 @@
+.item {
+  margin: 0.5em auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.question {
+  display: flex;
+  cursor: pointer;
+}
+.question p {
+  font-weight: bold;
+}
+
+.answer {
+  margin: 1em;
+}
