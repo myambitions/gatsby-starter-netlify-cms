@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "name": "name of the first course",
+    "startDate": "05.02.2020",
+    "stopedVideo": 3,
+    "text": "Начни изучать сейчас и достигни цели!",
+    "preview": "/img/main.jpg",
+    "plan": [
+      {
+        "id": 1,
+        "name": "Введение: Искусство принятия решений",
+        "duration": "3:21",
+        "description": "lorem ipsum"
+      },
+      {
+        "id": 2,
+        "name": "Стратегии принятия решений",
+        "duration": "5:21",
+        "description": "lorem ipsum qwdqwdqwdqwdqwdqwd"
+      },
+      {
+        "id": 3,
+        "name": "Сколько стоят неверные решения",
+        "duration": "1:55",
+        "description": "lorem ipsum ;;ls;ldsldalsjndaksdlksadlj"
+      }
+    ],
+    "qa": [
+      {
+        "id": 1,
+        "question": "Question 1",
+        "answer": "Answer 1"
+      },
+      {
+        "id": 2,
+        "question": "Question 2",
+        "answer": "Answer 2"
+      },
+      {
+        "id": 3,
+        "question": "Question 3",
+        "answer": "Answer 3"
+      },
+      {
+        "id": 4,
+        "question": "Question 4",
+        "answer": "Answer 4"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "name": "John",
+        "comment": "NICE WORK!"
+      }
+    ]
+  }
+]

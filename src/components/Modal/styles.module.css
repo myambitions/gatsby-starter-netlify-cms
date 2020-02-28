@@ -1,4 +1,4 @@
-.modal-block {
+.block {
   position: relative;
   width: 30%;
   display: flex;
@@ -27,7 +27,7 @@
   left: 0;
   z-index: 1;
 }
-.modal-title {
+.title {
   display: flex;
   border-bottom: 1px solid #ddd;
   padding-bottom: 0.5em;
@@ -35,16 +35,16 @@
   align-items: center;
 }
 
-.modal-title > p {
+.title > p {
   font-size: 1.5em;
   flex-grow: 1;
 }
-.modal-title > span {
+.title > span {
   display: inline-block;
   cursor: pointer;
 }
 
-.modal-body input {
+.body input {
   display: block;
   margin-bottom: 1em;
   font-size: 1em;
@@ -53,17 +53,17 @@
   border-radius: 4px;
 }
 
-.modal-body button {
+.body button {
   display: inline-block;
   margin-right: 1em;
 }
 
-.modal-body > form p {
+.body > form p {
   width: fit-content;
   text-decoration: underline;
   color: blue;
   cursor: pointer;
 }
-.modal-body > form p:hover {
+.body > form p:hover {
   text-decoration: none;
 }

@@ -1,0 +1,16 @@
+.qaList {
+  composes: items from "../itemsList/styles.module.css";
+}
+
+.qaM {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 1em;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.qaM p:nth-child(1) {
+  border-right: 1px solid #ddd;
+}

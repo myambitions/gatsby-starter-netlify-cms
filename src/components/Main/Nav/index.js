@@ -11,7 +11,7 @@ const Nav = ({ open }) => {
         About
       </Link>
       <Divider type="secondary" />
-      <Link to="/courses" title="Courses">
+      <Link to="/mycourses" title="Courses">
         Courses
       </Link>
       <Divider type="secondary" />

@@ -1,0 +1,3 @@
+.comments {
+  composes: items from "../itemsList/styles.module.css";
+}

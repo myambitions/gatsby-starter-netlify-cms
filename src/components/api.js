@@ -1,14 +1,15 @@
 import React, { useState, useEffect, createContext } from "react";
 const initialContext = {
   user: {},
+  courses: [],
   loginUser: () => {}
 };
 export const ApiContext = createContext(initialContext);
 const Api = ({ children }) => {
   // const initialUser = { name: "test", password: null };
   const [user, setUser] = useState();
+  const [courses, setCourses] = useState([]);
   const loginUser = creds => {
-    console.log(creds);
     const { name, password } = creds;
     if (name === "dauren" && password === "qwerty123") {
       setUser(creds);
@@ -16,13 +17,19 @@ const Api = ({ children }) => {
       setUser(null);
     }
   };
-  useEffect(() => {}, [user]);
+  const getCourses = () => {
+    setCourses(require("../../static/mocks/courses.json"));
+  };
+
+  useEffect(() => {
+    getCourses();
+  }, [user]);
   const defaultContext = {
     user,
+    courses,
     loginUser
   };
 
-  // useEffect(() => {}, [user]);
   return (
     <ApiContext.Provider value={defaultContext}>{children}</ApiContext.Provider>
   );
