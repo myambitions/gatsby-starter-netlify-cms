@@ -1,0 +1,17 @@
+nav {
+  position: absolute;
+  top: 10em;
+  right: 18em;
+}
+
+nav a,
+nav p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav p {
+  cursor: pointer;
+  display: inline-block;
+}
