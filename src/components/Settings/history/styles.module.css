@@ -1,0 +1,25 @@
+.th {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.th span {
+  border: 1px solid #ddd;
+  padding: .5em
+}
+
+.tr {
+  composes: th;
+  margin-top: 1em;
+}
+
+.history {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.history>p {
+  margin: auto;
+  font-weight: bold;
+  color: rgb(185, 14, 14)
+}

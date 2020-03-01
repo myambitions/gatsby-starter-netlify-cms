@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import Footer from "./Footer";
+import Header from "./Header";
 import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
@@ -47,6 +48,7 @@ const TemplateWrapper = ({ children, className = "" }) => {
           content={`${withPrefix("/")}img/og-image.jpg`}
         />
       </Helmet>
+      <Header />
       <main className={className}>{children}</main>
       <Footer />
     </div>

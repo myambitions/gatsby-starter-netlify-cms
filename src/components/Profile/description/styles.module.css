@@ -1,0 +1,11 @@
+.description {
+  width: 80%;
+  margin: 0 auto 2em;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.description p {
+  font-size: 1.25em;
+}
