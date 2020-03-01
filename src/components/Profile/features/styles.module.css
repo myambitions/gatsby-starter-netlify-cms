@@ -1,0 +1,16 @@
+.features {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  composes: description from '../description/styles.module.css';
+  text-align: center;
+}
+
+.features p:last-child {
+  border-right: none;
+}
+
+.features p {
+  border-right: 1px solid #ddd;
+}

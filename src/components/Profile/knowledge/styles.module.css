@@ -1,0 +1,8 @@
+.knowledge {
+  composes: description from '../description/styles.module.css';
+  display: flex;
+}
+
+.knowledge>div {
+  width: 50%;
+}

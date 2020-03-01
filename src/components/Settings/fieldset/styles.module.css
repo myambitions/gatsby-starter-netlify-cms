@@ -1,0 +1,15 @@
+.f {
+  composes: history from '../history/styles.module.css';
+  margin-bottom: 1em;
+}
+
+.control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.control>p {
+  border: 1px solid #ddd;
+  padding: .5em;
+  width: 25em;
+}
